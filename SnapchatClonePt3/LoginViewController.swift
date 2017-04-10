@@ -13,6 +13,8 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
+    var handle: FIRAuthStateDidChangeListenerHandle?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         emailField.delegate = self
@@ -42,8 +44,53 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         guard let emailText = emailField.text else { return }
         guard let passwordText = passwordField.text else { return }
         
-        // YOUR CODE HERE
+        if self.emailField.text == "" || self.passwordField.text == "" {
+            
+            //Alert to tell the user that there was an error because they didn't fill anything in the textfields because they didn't fill anything in
+            
+            let alertController = UIAlertController(title: "Error", message: "Please enter an email and password.", preferredStyle: .alert)
+            
+            let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+            alertController.addAction(defaultAction)
+            
+            self.present(alertController, animated: true, completion: nil)
+            
+        } else {
+            
+            FIRAuth.auth()?.signIn(withEmail: emailText, password: passwordText) { (user, error) in
+                
+                if error == nil {
+                    
+                    //Print into the console if successfully logged in
+                    print("You have successfully logged in")
+                    
+                    //Go to the HomeViewController if the login is sucessful
+//                    let vc = self.storyboard?.instantiateViewController(withIdentifier: "loginToMain")
+//                    self.present(vc!, animated: true, completion: nil)
+                    self.performSegue(withIdentifier: "loginToMain", sender: nil)
+                    
+                } else {
+                    
+                    //Tells the user that there is an error and then gets firebase to tell them the error
+                    let alertController = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: .alert)
+                    
+                    let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+                    alertController.addAction(defaultAction)
+                    
+                    self.present(alertController, animated: true, completion: nil)
+                    //self.performSegue(withIdentifier: "loginToMain", sender: nil)
+                }
+            }
+        }
     }
+    
+    deinit {
+        if let handle = handle {
+            FIRAuth.auth()?.removeStateDidChangeListener(handle)
+        }
+    }
+        // YOUR CODE HERE
+    //}
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
