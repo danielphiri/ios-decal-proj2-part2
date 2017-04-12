@@ -40,8 +40,8 @@ class SignupViewController: UIViewController, UITextFieldDelegate {
         guard let name = nameField.text else { return }
         
         
-        if email == "" {
-            let alertController = UIAlertController(title: "Error", message: "Please enter your email and password", preferredStyle: .alert)
+        if email == "" || name == "" || password == "" {
+            let alertController = UIAlertController(title: "Sign Up Error", message: "Please fill in all information.", preferredStyle: .alert)
             
             let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
             alertController.addAction(defaultAction)
@@ -55,7 +55,27 @@ class SignupViewController: UIViewController, UITextFieldDelegate {
                     //NSUserName() = nam
                     //CurrentUser.username = name
                    // user?.displayName = name
-                    FIRAuth.auth()?.currentUser?.profileChangeRequest().displayName = name
+                    let changeReq = user!.profileChangeRequest()
+                    changeReq.displayName = name
+                    changeReq.commitChanges(completion:
+                        { (err) in
+                            if let err = err {
+                                print(err)
+                            } else {
+                                
+                            }
+                        
+                    })
+                    //FIRAuth.auth()?.currentUser?.profileChangeRequest().displayName = name
+                    
+                    //FIRAuth.auth()?.currentUser?.profileChangeRequest().se
+                   // var ref = Firebase(url: "https://.firebaseio.com/")
+                   // var userNameRef = ref.childByAppendingPath("users/uid_0/user_name")
+                   // userNameRef.setValue("Leeeeroy")
+                    //FIRDatabase.database().reference().child("users").child(FIRAuth.auth()!.currentUser!.uid)
+                    //FIRDatabase.database().reference().child("Users").child(FIRAuth.auth()!.currentUser!.uid)
+                    
+                    //FIRAuth.auth()?.currentUser?.profileChangeRequest().commitChanges()
                     print("You have successfully signed up")
                     //Goes to the Setup page which lets the user take a photo for their profile picture and also chose a username
                     
@@ -64,7 +84,7 @@ class SignupViewController: UIViewController, UITextFieldDelegate {
                     self.performSegue(withIdentifier: "signupToMain", sender: nil)
                     
                 } else {
-                    let alertController = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: .alert)
+                    let alertController = UIAlertController(title: "Sign Up Error", message: error?.localizedDescription, preferredStyle: .alert)
                     
                     let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
                     alertController.addAction(defaultAction)

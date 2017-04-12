@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SnapchatClonePt3/SignupViewController.swift"
-            timestampString = "512770065.162469"
+            timestampString = "513647059.87513"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
             landmarkName = "didAttemptSignup(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SnapchatClonePt3/SignupViewController.swift"
-            timestampString = "512771419.331436"
+            timestampString = "513647059.87513"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
             landmarkName = "didAttemptSignup(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SnapchatClonePt3/SignupViewController.swift"
-            timestampString = "512771419.331436"
+            timestampString = "513647059.87513"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
             landmarkName = "didAttemptSignup(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SnapchatClonePt3/SignupViewController.swift"
-            timestampString = "512770071.530595"
+            timestampString = "513647059.87513"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
             landmarkName = "didAttemptSignup(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -73,14 +73,334 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SnapchatClonePt3/SignupViewController.swift"
-            timestampString = "512770072.756368"
+            filePath = "SnapchatClonePt3/ImageFeed.swift"
+            timestampString = "513635712.060389"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "getPosts(user:completion:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnapchatClonePt3.(getPosts (user : SnapchatClonePt3.CurrentUser, completion : (Swift.Optional&lt;Swift.Array&lt;SnapchatClonePt3.Post&gt;&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/ImageFeed.swift"
+                  timestampString = "513653748.020433"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "572">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnapchatClonePt3.(getPosts (user : SnapchatClonePt3.CurrentUser, completion : (Swift.Optional&lt;Swift.Array&lt;SnapchatClonePt3.Post&gt;&gt;) -&gt; ()) -&gt; ()).(closure #1).(closure #1)"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/ImageFeed.swift"
+                  timestampString = "513653748.023391"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/ImageFeed.swift"
+            timestampString = "513635713.393884"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "getPosts(user:completion:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnapchatClonePt3.(getPosts (user : SnapchatClonePt3.CurrentUser, completion : (Swift.Optional&lt;Swift.Array&lt;SnapchatClonePt3.Post&gt;&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/ImageFeed.swift"
+                  timestampString = "513653748.032425"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "1324">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnapchatClonePt3.(getPosts (user : SnapchatClonePt3.CurrentUser, completion : (Swift.Optional&lt;Swift.Array&lt;SnapchatClonePt3.Post&gt;&gt;) -&gt; ()) -&gt; ()).(closure #1).(closure #2)"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/ImageFeed.swift"
+                  timestampString = "513653748.036322"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/ImageFeed.swift"
+            timestampString = "513635717.195555"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "getPosts(user:completion:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/ImageFeed.swift"
+            timestampString = "513635717.978001"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "getPosts(user:completion:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnapchatClonePt3.(getPosts (user : SnapchatClonePt3.CurrentUser, completion : (Swift.Optional&lt;Swift.Array&lt;SnapchatClonePt3.Post&gt;&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/ImageFeed.swift"
+                  timestampString = "513653748.056519"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "1740">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnapchatClonePt3.(getPosts (user : SnapchatClonePt3.CurrentUser, completion : (Swift.Optional&lt;Swift.Array&lt;SnapchatClonePt3.Post&gt;&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/ImageFeed.swift"
+                  timestampString = "513653748.05991"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "4180">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/ImageFeed.swift"
+            timestampString = "513635718.785996"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "getPosts(user:completion:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnapchatClonePt3.(getPosts (user : SnapchatClonePt3.CurrentUser, completion : (Swift.Optional&lt;Swift.Array&lt;SnapchatClonePt3.Post&gt;&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/ImageFeed.swift"
+                  timestampString = "513653748.070072"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "1740">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnapchatClonePt3.(getPosts (user : SnapchatClonePt3.CurrentUser, completion : (Swift.Optional&lt;Swift.Array&lt;SnapchatClonePt3.Post&gt;&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/ImageFeed.swift"
+                  timestampString = "513653748.072597"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "4180">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/ImageFeed.swift"
+            timestampString = "513635719.433836"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "getPosts(user:completion:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/ImageFeed.swift"
+            timestampString = "513635721.443672"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "getDataFromPath(path:completion:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/ImageFeed.swift"
+            timestampString = "513635722.261535"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "getDataFromPath(path:completion:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnapchatClonePt3.(getDataFromPath (path : Swift.String, completion : (Swift.Optional&lt;Foundation.Data&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/ImageFeed.swift"
+                  timestampString = "513653748.092602"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "146"
+                  endingLineNumber = "146"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnapchatClonePt3.(getDataFromPath (path : Swift.String, completion : (Swift.Optional&lt;Foundation.Data&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/ImageFeed.swift"
+                  timestampString = "513653748.094764"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "146"
+                  endingLineNumber = "146"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/ImageFeed.swift"
+            timestampString = "513635723.069503"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "149"
+            endingLineNumber = "149"
+            landmarkName = "getDataFromPath(path:completion:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/ImageFeed.swift"
+            timestampString = "513635724.375261"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
+            landmarkName = "getDataFromPath(path:completion:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/ImageFeed.swift"
+            timestampString = "513635729.84386"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "59"
             endingLineNumber = "59"
-            landmarkName = "didAttemptSignup(_:)"
-            landmarkType = "7">
+            landmarkName = "addPost(postImage:thread:username:)"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -89,14 +409,14 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SnapchatClonePt3/SignupViewController.swift"
-            timestampString = "512770116.381813"
+            filePath = "SnapchatClonePt3/ImageFeed.swift"
+            timestampString = "513635730.567032"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
-            landmarkName = "didAttemptSignup(_:)"
-            landmarkType = "7">
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "addPost(postImage:thread:username:)"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -105,14 +425,14 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SnapchatClonePt3/SignupViewController.swift"
-            timestampString = "512770143.146152"
+            filePath = "SnapchatClonePt3/ImageFeed.swift"
+            timestampString = "513635732.203461"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "didAttemptSignup(_:)"
-            landmarkType = "7">
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "addPost(postImage:thread:username:)"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -121,14 +441,14 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SnapchatClonePt3/LoginViewController.swift"
-            timestampString = "512770405.358073"
+            filePath = "SnapchatClonePt3/ImageFeed.swift"
+            timestampString = "513635733.557416"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
-            landmarkName = "didAttemptLogin(_:)"
-            landmarkType = "7">
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "addPost(postImage:thread:username:)"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -137,13 +457,77 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SnapchatClonePt3/LoginViewController.swift"
-            timestampString = "512770406.844054"
+            filePath = "SnapchatClonePt3/ImageFeed.swift"
+            timestampString = "513635734.381085"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "addPost(postImage:thread:username:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/ChooseThreadViewController.swift"
+            timestampString = "513636866.49547"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "postToFeed(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnapchatClonePt3.ChooseThreadViewController.postToFeed (__ObjC.UIButton) -&gt; ()"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/ChooseThreadViewController.swift"
+                  timestampString = "513653748.145603"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "552">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnapchatClonePt3.ChooseThreadViewController.postToFeed (__ObjC.UIButton) -&gt; ()"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/ChooseThreadViewController.swift"
+                  timestampString = "513653748.147782"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "600">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/ChooseThreadViewController.swift"
+            timestampString = "513636868.001601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "45"
             endingLineNumber = "45"
-            landmarkName = "didAttemptLogin(_:)"
+            landmarkName = "postToFeed(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -153,13 +537,93 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SnapchatClonePt3/LoginViewController.swift"
-            timestampString = "512770407.812033"
+            filePath = "SnapchatClonePt3/ChooseThreadViewController.swift"
+            timestampString = "513636869.113404"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "postToFeed(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnapchatClonePt3.ChooseThreadViewController.postToFeed (__ObjC.UIButton) -&gt; ()"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/ChooseThreadViewController.swift"
+                  timestampString = "513653748.162402"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "612">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnapchatClonePt3.ChooseThreadViewController.postToFeed (__ObjC.UIButton) -&gt; ()"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/ChooseThreadViewController.swift"
+                  timestampString = "513653748.164561"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "2276">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/ChooseThreadViewController.swift"
+            timestampString = "513636877.449269"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "postToFeed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/ChooseThreadViewController.swift"
+            timestampString = "513636883.153084"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "postToFeed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/ChooseThreadViewController.swift"
+            timestampString = "513636884.637059"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "47"
             endingLineNumber = "47"
-            landmarkName = "didAttemptLogin(_:)"
+            landmarkName = "postToFeed(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -169,13 +633,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SnapchatClonePt3/LoginViewController.swift"
-            timestampString = "512770624.936923"
+            filePath = "SnapchatClonePt3/ChooseThreadViewController.swift"
+            timestampString = "513636890.790979"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "viewDidAppear(_:)"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "postToFeed(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -185,14 +649,639 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SnapchatClonePt3/LoginViewController.swift"
-            timestampString = "512770629.296796"
+            filePath = "SnapchatClonePt3/ImageFeed.swift"
+            timestampString = "513636938.750512"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "viewDidAppear(_:)"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "addPostToThread(post:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/PostsTableViewController.swift"
+            timestampString = "513636986.942788"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "updateData()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/PostsTableViewController.swift"
+            timestampString = "513636989.188903"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "updateData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnapchatClonePt3.PostsTableViewController.(updateData () -&gt; ()).(closure #1)"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/PostsTableViewController.swift"
+                  timestampString = "513653748.214104"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "464">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnapchatClonePt3.PostsTableViewController.(updateData () -&gt; ()).(closure #1).(closure #1)"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/PostsTableViewController.swift"
+                  timestampString = "513653748.216972"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "208">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/PostsTableViewController.swift"
+            timestampString = "513636991.066589"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "updateData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/PostsTableViewController.swift"
+            timestampString = "513636992.206868"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "updateData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/SignupViewController.swift"
+            timestampString = "513647059.87513"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "didAttemptSignup(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/ImageFeed.swift"
+            timestampString = "513647798.638375"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "getPosts(user:completion:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnapchatClonePt3.(getPosts (user : SnapchatClonePt3.CurrentUser, completion : (Swift.Optional&lt;Swift.Array&lt;SnapchatClonePt3.Post&gt;&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/ImageFeed.swift"
+                  timestampString = "513653748.247426"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "1740">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnapchatClonePt3.(getPosts (user : SnapchatClonePt3.CurrentUser, completion : (Swift.Optional&lt;Swift.Array&lt;SnapchatClonePt3.Post&gt;&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/ImageFeed.swift"
+                  timestampString = "513653748.251013"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "4180">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/ImageFeed.swift"
+            timestampString = "513647868.025796"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "getPosts(user:completion:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/ImageFeed.swift"
+            timestampString = "513647869.26991"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "getPosts(user:completion:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnapchatClonePt3.(getPosts (user : SnapchatClonePt3.CurrentUser, completion : (Swift.Optional&lt;Swift.Array&lt;SnapchatClonePt3.Post&gt;&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/ImageFeed.swift"
+                  timestampString = "513653748.303257"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "119"
+                  endingLineNumber = "119"
+                  offsetFromSymbolStart = "600">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnapchatClonePt3.(getPosts (user : SnapchatClonePt3.CurrentUser, completion : (Swift.Optional&lt;Swift.Array&lt;SnapchatClonePt3.Post&gt;&gt;) -&gt; ()) -&gt; ()).(closure #1).(closure #1)"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/ImageFeed.swift"
+                  timestampString = "513653748.305999"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/ImageFeed.swift"
+            timestampString = "513648068.377181"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "getPosts(user:completion:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnapchatClonePt3.(getPosts (user : SnapchatClonePt3.CurrentUser, completion : (Swift.Optional&lt;Swift.Array&lt;SnapchatClonePt3.Post&gt;&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/ImageFeed.swift"
+                  timestampString = "513653748.317065"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "1188">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnapchatClonePt3.(getPosts (user : SnapchatClonePt3.CurrentUser, completion : (Swift.Optional&lt;Swift.Array&lt;SnapchatClonePt3.Post&gt;&gt;) -&gt; ()) -&gt; ()).(closure #1).(closure #1)"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/ImageFeed.swift"
+                  timestampString = "513653748.320923"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "472">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnapchatClonePt3.(getPosts (user : SnapchatClonePt3.CurrentUser, completion : (Swift.Optional&lt;Swift.Array&lt;SnapchatClonePt3.Post&gt;&gt;) -&gt; ()) -&gt; ()).(closure #1).(closure #2)"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/ImageFeed.swift"
+                  timestampString = "513653748.324774"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/ImageFeed.swift"
+            timestampString = "513648070.137057"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "getPosts(user:completion:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/Constants.swift"
+            timestampString = "513651245.053024"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_B8C237B64C1B2FEF82D11CA7749A26E5_func2"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/Constants.swift"
+                  timestampString = "513653748.354187"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnapchatClonePt3.firReadPostsNode.unsafeMutableAddressor : Swift.String"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/Constants.swift"
+                  timestampString = "513653748.358076"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/Constants.swift"
+            timestampString = "513651246.290923"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_B8C237B64C1B2FEF82D11CA7749A26E5_func3"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/Constants.swift"
+                  timestampString = "513653748.394993"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnapchatClonePt3.firPostsNode.unsafeMutableAddressor : Swift.String"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/Constants.swift"
+                  timestampString = "513653748.398654"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/Constants.swift"
+            timestampString = "513651306.019579"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_B8C237B64C1B2FEF82D11CA7749A26E5_func4"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/Constants.swift"
+                  timestampString = "513653748.41779"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnapchatClonePt3.firUsernameNode.unsafeMutableAddressor : Swift.String"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/Constants.swift"
+                  timestampString = "513653748.421246"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/Constants.swift"
+            timestampString = "513651309.433856"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_B8C237B64C1B2FEF82D11CA7749A26E5_func5"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/Constants.swift"
+                  timestampString = "513653748.432335"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnapchatClonePt3.firThreadNode.unsafeMutableAddressor : Swift.String"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/Constants.swift"
+                  timestampString = "513653748.435763"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/Constants.swift"
+            timestampString = "513651312.171524"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_B8C237B64C1B2FEF82D11CA7749A26E5_func6"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/Constants.swift"
+                  timestampString = "513653748.447317"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnapchatClonePt3.firDateNode.unsafeMutableAddressor : Swift.String"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/Constants.swift"
+                  timestampString = "513653748.450608"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/Constants.swift"
+            timestampString = "513651313.011836"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_B8C237B64C1B2FEF82D11CA7749A26E5_func7"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/Constants.swift"
+                  timestampString = "513653748.462044"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnapchatClonePt3.firImagePathNode.unsafeMutableAddressor : Swift.String"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/Constants.swift"
+                  timestampString = "513653748.465431"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnapchatClonePt3/Constants.swift"
+            timestampString = "513651314.663855"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_B8C237B64C1B2FEF82D11CA7749A26E5_func8"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/Constants.swift"
+                  timestampString = "513653748.476845"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnapchatClonePt3.firStorageImagesPath.unsafeMutableAddressor : Swift.String"
+                  moduleName = "SnapchatClonePt3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielphiri/Documents/iOS%20DeCal/Projects/ios-decal-proj2-part2/SnapchatClonePt3/Constants.swift"
+                  timestampString = "513653748.480363"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

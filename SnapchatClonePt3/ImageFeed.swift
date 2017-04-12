@@ -59,8 +59,13 @@ func addPost(postImage: UIImage, thread: String, username: String) {
     let dbRef = FIRDatabase.database().reference()
     let data = UIImageJPEGRepresentation(postImage, 1.0)! 
     let path = "\(firStorageImagesPath)/\(UUID().uuidString)"
-    
     // YOUR CODE HERE
+    
+    let dateFormatter = DateFormatter()
+    dateFormatter.dateFormat = dateFormat
+    let properties: [String: String] = [firImagePathNode: path, firThreadNode: thread, firUsernameNode: username, firDateNode: dateFormatter.string(from: Date())]
+    dbRef.child(firPostsNode).childByAutoId().setValue(properties)
+    store(data: data, toPath: path)
 }
 
 /*
@@ -75,6 +80,13 @@ func store(data: Data, toPath path: String) {
     let storageRef = FIRStorage.storage().reference()
     
     // YOUR CODE HERE
+    
+    storageRef.child(path).put(data, metadata: nil, completion: { (metadata, error) in
+        if let error = error {
+            print("Error uploading: \(error)")
+        }
+    })
+
 }
 
 
@@ -100,6 +112,32 @@ func getPosts(user: CurrentUser, completion: @escaping ([Post]?) -> Void) {
     var postArray: [Post] = []
     
     // YOUR CODE HERE
+    
+    dbRef.child(firPostsNode).observeSingleEvent(of: .value, with: { (snapshot) in
+        let value = snapshot.value as? [String: AnyObject]
+        var userReadPosts = [String: String]()
+        dbRef.child(firUsersNode).queryEqual(toValue: user.id).observeSingleEvent(of: .value, with: { (data) in
+            userReadPosts = (data.value as? [String: String])!
+        }) { (error) in
+            completion(nil)
+        }
+        for key in (value?.keys)! {
+            var keyInRead = false
+//            if userReadPosts.keys.contains(key) {
+//                var keyInRead = true
+//            }
+//            var imgPath = value?[firImagePathNode] as! [String]
+//            var threadVal = value?[firThreadNode] as! [String]
+//            var date = value?[firDateNode] as! [String]
+            let post = Post(id: key, username: (value?[key]?.user)!, postImagePath: (value?[key]?.path)!, thread: threadNames[0], dateString: (value?[key]?.dateFormat)!, read: ((value?[key]) != nil))
+            postArray.append(post)
+        }
+        
+        completion(postArray)
+    }) { (error) in
+        completion(nil)
+    }
+
 }
 
 func getDataFromPath(path: String, completion: @escaping (Data?) -> Void) {

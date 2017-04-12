@@ -22,7 +22,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        // Checks if user is already signed in and skips login
+      //   Checks if user is already signed in and skips login
         if FIRAuth.auth()?.currentUser != nil {
             self.performSegue(withIdentifier: "loginToMain", sender: self)
         }
@@ -48,7 +48,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
             
             //Alert to tell the user that there was an error because they didn't fill anything in the textfields because they didn't fill anything in
             
-            let alertController = UIAlertController(title: "Error", message: "Please enter an email and password.", preferredStyle: .alert)
+            let alertController = UIAlertController(title: "Log In Error", message: "Please enter an email and password.", preferredStyle: .alert)
             
             let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
             alertController.addAction(defaultAction)
@@ -72,7 +72,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
                 } else {
                     
                     //Tells the user that there is an error and then gets firebase to tell them the error
-                    let alertController = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: .alert)
+                    let alertController = UIAlertController(title: "Log In Error", message: error?.localizedDescription, preferredStyle: .alert)
                     
                     let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
                     alertController.addAction(defaultAction)
