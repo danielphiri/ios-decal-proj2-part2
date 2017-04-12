@@ -79,11 +79,15 @@ class PostsTableViewController: UIViewController, UITableViewDelegate, UITableVi
                 for post in posts! {
                     addPostToThread(post: post)
                     getDataFromPath(path: post.postImagePath, completion: { (imgData) in
-                        //var img = UIImage(data: imgData!)
-                        self.loadedImagesById[post.postId]
+                        if imgData != nil {
+                            let img = UIImage(data: imgData!)
+                            self.loadedImagesById[post.postId] = img
+                        }
+                        
                     })
                 }
-                self.view.reloadInputViews()
+//                self.view.reloadInputViews()
+                self.postTableView.reloadData()
             }
         })
 

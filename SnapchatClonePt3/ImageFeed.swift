@@ -117,7 +117,9 @@ func getPosts(user: CurrentUser, completion: @escaping ([Post]?) -> Void) {
         let value = snapshot.value as? [String: AnyObject]
         var userReadPosts = [String: String]()
         dbRef.child(firUsersNode).queryEqual(toValue: user.id).observeSingleEvent(of: .value, with: { (data) in
-            userReadPosts = (data.value as? [String: String])!
+//            if let userReadPosts = (data.value as? [String: String]?)! {
+//                
+//            }
         }) { (error) in
             completion(nil)
         }
@@ -129,8 +131,11 @@ func getPosts(user: CurrentUser, completion: @escaping ([Post]?) -> Void) {
 //            var imgPath = value?[firImagePathNode] as! [String]
 //            var threadVal = value?[firThreadNode] as! [String]
 //            var date = value?[firDateNode] as! [String]
-            let post = Post(id: key, username: (value?[key]?.user)!, postImagePath: (value?[key]?.path)!, thread: threadNames[0], dateString: (value?[key]?.dateFormat)!, read: ((value?[key]) != nil))
-            postArray.append(post)
+            if let user1 = value?[key] as! [String: String]? {
+
+                let post = Post(id: key, username: user1["username"]!, postImagePath: user1["imagePath"]!, thread: user1["thread"]!, dateString: user1["date"]!, read: keyInRead)
+                postArray.append(post)
+            }
         }
         
         completion(postArray)

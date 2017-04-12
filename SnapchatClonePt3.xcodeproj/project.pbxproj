@@ -28,7 +28,6 @@
 		3CE8EC081E7F0DD2008108BB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE8EC071E7F0DD2008108BB /* LoginViewController.swift */; };
 		3CE8EC0A1E7F0EA4008108BB /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE8EC091E7F0EA4008108BB /* SignupViewController.swift */; };
 		91A63278CB9C0CB03B21A0FE /* Pods_SnapchatClonePt3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F44AFC87DA71B62C85089D6 /* Pods_SnapchatClonePt3.framework */; };
-		9448D5901E9C991D0069DEF0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9448D58F1E9C991D0069DEF0 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,7 +76,6 @@
 		3CE8EC051E7E80C8008108BB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3CE8EC071E7F0DD2008108BB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3CE8EC091E7F0EA4008108BB /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
-		9448D58F1E9C991D0069DEF0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ED032DBB9547494D3448A63F /* Pods-SnapchatClonePt3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapchatClonePt3.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnapchatClonePt3/Pods-SnapchatClonePt3.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -215,7 +213,6 @@
 		3CE8EC031E7E7F21008108BB /* Tab Bar */ = {
 			isa = PBXGroup;
 			children = (
-				9448D58F1E9C991D0069DEF0 /* GoogleService-Info.plist */,
 				3CE750AB1E7E7D970076B31F /* TabBarController.swift */,
 			);
 			name = "Tab Bar";
@@ -362,7 +359,6 @@
 			files = (
 				3CE750801E7E7D540076B31F /* LaunchScreen.storyboard in Resources */,
 				3CE8EC061E7E80C8008108BB /* GoogleService-Info.plist in Resources */,
-				9448D5901E9C991D0069DEF0 /* GoogleService-Info.plist in Resources */,
 				3CE7507D1E7E7D540076B31F /* Assets.xcassets in Resources */,
 				3CE7507B1E7E7D540076B31F /* Main.storyboard in Resources */,
 			);
@@ -427,7 +423,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -605,7 +601,7 @@
 				INFOPLIST_FILE = SnapchatClonePt3/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.iosdecal.SnapchatClonePt3Daniel;
+				PRODUCT_BUNDLE_IDENTIFIER = org.iosdecal.SnapchatClonePt3d;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -620,7 +616,7 @@
 				INFOPLIST_FILE = SnapchatClonePt3/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.iosdecal.SnapchatClonePt3Daniel;
+				PRODUCT_BUNDLE_IDENTIFIER = org.iosdecal.SnapchatClonePt3d;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
